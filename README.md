@@ -3,6 +3,8 @@
 
 A convolutional neural network to predict the monthly average active sunspots
 in the Sun. The data is available through the [Y-Space](http://y-space.pw/) API.
+The Jupyter Notebook [sunspots-estimator.ipynb](sunspots-estimator.ipynb)
+includes the process of creating the dataset and training the model.
 
 The model is defined using a combination of a convolutional layer, LSTM layers,
 and dense layers. The output is a single node layer -- the predicted number
@@ -33,6 +35,8 @@ The following plot illustrates the original values (the blue line) versus the
 model predictions (orange line.).
 
 ![predictions](imgs/predictions.png)
+
+The final version of the model is saved in [sunspots-estimator.h5](sunspots-estimator.h5).
 
 ### Acknowledgments
 
